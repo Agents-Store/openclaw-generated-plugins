@@ -1,0 +1,29 @@
+{
+  "name": "@agents-store/dataforseo-dev",
+  "version": "1.0.0",
+  "description": "DataForSEO data analysis plugin. Keyword research, competitor analysis, backlink auditing, SERP monitoring, on-page audits, content analysis, and AI optimization via 70+ MCP tools.",
+  "license": "MIT",
+  "author": {
+    "name": "AGENTS.STORE"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "agents-store",
+    "dataforseo",
+    "seo",
+    "keyword-research",
+    "backlinks",
+    "serp",
+    "competitor-analysis",
+    "on-page",
+    "content-analysis",
+    "ai-optimization",
+    "dev"
+  ],
+  "files": [
+    "skills/",
+    "openclaw.plugin.json",
+    "README.md"
+  ]
+}

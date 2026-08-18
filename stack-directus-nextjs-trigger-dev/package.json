@@ -1,0 +1,32 @@
+{
+  "name": "@agents-store/stack-directus-nextjs-trigger-dev",
+  "version": "1.0.2",
+  "description": "Directus + Next.js + Trigger.dev stack dev plugin. Adds self-hosted Trigger.dev as a workflow engine for AI agents, durable async logic, and scheduled jobs on top of the Directus + Next.js App Router stack.",
+  "license": "MIT",
+  "author": {
+    "name": "Agents Store",
+    "url": "https://github.com/agents-store"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "agents-store",
+    "stack",
+    "directus-nextjs-trigger",
+    "dev",
+    "directus",
+    "nextjs",
+    "trigger.dev",
+    "ai-agents",
+    "workflows",
+    "scheduled-tasks",
+    "self-hosted",
+    "durable-execution",
+    "app-router"
+  ],
+  "files": [
+    "skills/",
+    "openclaw.plugin.json",
+    "README.md"
+  ]
+}

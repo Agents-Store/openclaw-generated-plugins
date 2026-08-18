@@ -1,0 +1,27 @@
+{
+  "name": "@agents-store/dify-ops",
+  "version": "1.0.1",
+  "description": "Dify self-hosted update operations plugin. Pull upstream changes, merge into local dev branch, sync .env variables, detect Docker project names, and rebuild containers for Dify Docker deployments.",
+  "license": "MIT",
+  "author": {
+    "name": "AGENTS.STORE"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "agents-store",
+    "dify",
+    "docker",
+    "self-hosted",
+    "update",
+    "ops",
+    "docker-compose",
+    "env-sync",
+    "llm-platform"
+  ],
+  "files": [
+    "skills/",
+    "openclaw.plugin.json",
+    "README.md"
+  ]
+}

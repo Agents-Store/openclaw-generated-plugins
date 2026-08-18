@@ -1,0 +1,40 @@
+{
+  "id": "nocodb-ops",
+  "name": "Nocodb Ops",
+  "description": "NocoDB ops plugin for Agents Store. Record management, views, reports, filtering, search, and data import/export for business users via MCP tools and CLI.",
+  "version": "1.0.6",
+  "skills": [
+    "skills/cli-reference",
+    "skills/examples",
+    "skills/import-export",
+    "skills/mcp-patterns",
+    "skills/record-management",
+    "skills/search-filter",
+    "skills/setup",
+    "skills/troubleshoot",
+    "skills/views-and-reports"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "nocodbMcpToken": {
+        "type": "string",
+        "default": ""
+      },
+      "nocodbMcpUrl": {
+        "type": "string",
+        "default": ""
+      }
+    }
+  },
+  "uiHints": {
+    "nocodbMcpToken": {
+      "label": "Nocodb Mcp Token",
+      "sensitive": true
+    },
+    "nocodbMcpUrl": {
+      "label": "Nocodb Mcp Url"
+    }
+  }
+}

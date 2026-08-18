@@ -1,0 +1,113 @@
+{
+  "id": "stack-composable-stack-v1",
+  "name": "Stack Composable Stack V1",
+  "description": "Composable Stack v1 dev plugin. Integrates PostgreSQL (direct MCP + PostgREST API), NocoDB, n8n, Trigger.dev, and NocoBase (prod + dev sandbox via nc-mcp) for building data-driven applications with low-code interfaces.",
+  "version": "1.2.0",
+  "skills": [
+    "skills/background-job",
+    "skills/full-feature",
+    "skills/init-project",
+    "skills/nocobase-to-n8n",
+    "skills/nocodb-to-n8n",
+    "skills/nocodb-to-trigger",
+    "skills/postgresql-api"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "n8nApiKey": {
+        "type": "string",
+        "default": ""
+      },
+      "n8nApiUrl": {
+        "type": "string",
+        "default": ""
+      },
+      "n8nMcpToken": {
+        "type": "string",
+        "default": ""
+      },
+      "n8nNativeMcpUrl": {
+        "type": "string",
+        "default": ""
+      },
+      "nocobaseDevApiKey": {
+        "type": "string",
+        "default": ""
+      },
+      "nocobaseDevUrl": {
+        "type": "string",
+        "default": ""
+      },
+      "nocodbMcpUrl": {
+        "type": "string",
+        "default": ""
+      },
+      "nocodbToken": {
+        "type": "string",
+        "default": ""
+      },
+      "postgresqlMcpToken": {
+        "type": "string",
+        "default": ""
+      },
+      "postgresqlMcpUrl": {
+        "type": "string",
+        "default": ""
+      },
+      "triggerApiUrl": {
+        "type": "string",
+        "default": ""
+      },
+      "triggerSecretKey": {
+        "type": "string",
+        "default": ""
+      }
+    }
+  },
+  "uiHints": {
+    "n8nApiKey": {
+      "label": "N8n Api Key",
+      "sensitive": true
+    },
+    "n8nApiUrl": {
+      "label": "N8n Api Url"
+    },
+    "n8nMcpToken": {
+      "label": "N8n Mcp Token",
+      "sensitive": true
+    },
+    "n8nNativeMcpUrl": {
+      "label": "N8n Native Mcp Url"
+    },
+    "nocobaseDevApiKey": {
+      "label": "Nocobase Dev Api Key",
+      "sensitive": true
+    },
+    "nocobaseDevUrl": {
+      "label": "Nocobase Dev Url"
+    },
+    "nocodbMcpUrl": {
+      "label": "Nocodb Mcp Url"
+    },
+    "nocodbToken": {
+      "label": "Nocodb Token",
+      "sensitive": true
+    },
+    "postgresqlMcpToken": {
+      "label": "Postgresql Mcp Token",
+      "sensitive": true
+    },
+    "postgresqlMcpUrl": {
+      "label": "Postgresql Mcp Url"
+    },
+    "triggerApiUrl": {
+      "label": "Trigger Api Url"
+    },
+    "triggerSecretKey": {
+      "label": "Trigger Secret Key",
+      "sensitive": true
+    }
+  }
+}

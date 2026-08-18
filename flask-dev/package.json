@@ -1,0 +1,26 @@
+{
+  "name": "@agents-store/flask-dev",
+  "version": "1.0.0",
+  "description": "Flask dev plugin for Agents Store. Application factory patterns, blueprint organization, Jinja2 templates, Flask CLI recipes, and troubleshooting for developers building with Flask.",
+  "license": "MIT",
+  "author": {
+    "name": "Agents Store",
+    "url": "https://github.com/agents-store"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "agents-store",
+    "flask",
+    "dev",
+    "python",
+    "jinja2",
+    "blueprints",
+    "web-framework"
+  ],
+  "files": [
+    "skills/",
+    "openclaw.plugin.json",
+    "README.md"
+  ]
+}

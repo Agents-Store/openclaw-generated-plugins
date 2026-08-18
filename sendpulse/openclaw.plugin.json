@@ -1,0 +1,25 @@
+{
+  "id": "sendpulse",
+  "name": "Sendpulse",
+  "description": "Sendpulse multi-channel marketing plugin. Manage chatbots (Telegram, WhatsApp, Instagram, Messenger, Viber), CRM (contacts, deals, pipelines, boards, tasks), email campaigns, templates, addressbooks, and SMTP transactional email via 133+ MCP tools.",
+  "version": "1.0.0",
+  "skills": [
+    "skills/chatbot-contacts-messaging",
+    "skills/chatbot-management",
+    "skills/crm-boards-tasks",
+    "skills/crm-contacts",
+    "skills/crm-deals-pipelines",
+    "skills/crm-products",
+    "skills/email-addressbooks",
+    "skills/email-campaigns-templates",
+    "skills/email-senders-config",
+    "skills/examples",
+    "skills/smtp-transactional"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  },
+  "uiHints": {}
+}

@@ -1,0 +1,31 @@
+{
+  "id": "plane-ops",
+  "name": "Plane Ops",
+  "description": "Plane Agile Ops knowledge plugin. Full coverage of the Plane MCP surface: sprint planning, task decomposition, estimation, backlog management, velocity tracking, retrospectives, standups, intake triage, modules, epics, initiatives, milestones, roadmaps, dependencies, burndown, pages (sprint reports, retros, ADRs, runbooks, specs, meeting notes), labels, workflow states, work item types, custom properties, comments, links, work logs, relations, history, bulk edits, search, members, and assignment. Tool- and instance-agnostic: works with any Plane MCP server or connector via a bootstrap skill that discovers tools across naming conventions.",
+  "version": "1.3.0",
+  "skills": [
+    "skills/agile-fundamentals",
+    "skills/backlog-management",
+    "skills/connector-bootstrap",
+    "skills/daily-standup",
+    "skills/epics-initiatives-milestones",
+    "skills/estimation",
+    "skills/examples",
+    "skills/intake-triage",
+    "skills/labels-states-properties",
+    "skills/modules",
+    "skills/pages-publishing",
+    "skills/project-setup",
+    "skills/sprint-planning",
+    "skills/sprint-review-retro",
+    "skills/task-decomposition",
+    "skills/velocity-metrics",
+    "skills/work-items"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  },
+  "uiHints": {}
+}

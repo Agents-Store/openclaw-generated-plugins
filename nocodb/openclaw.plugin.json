@@ -1,0 +1,39 @@
+{
+  "id": "nocodb",
+  "name": "Nocodb",
+  "description": "NocoDB database development plugin. Manage tables, records, columns, views, relations, formulas, rollups, lookups, filtering, sorting, search, aggregation, webhooks, and filter/sort management via MCP tools.",
+  "version": "1.0.0",
+  "skills": [
+    "skills/advanced-queries",
+    "skills/column-field-management",
+    "skills/examples",
+    "skills/record-operations",
+    "skills/schema-design",
+    "skills/table-management",
+    "skills/view-management",
+    "skills/webhook-management"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "nocodbMcpToken": {
+        "type": "string",
+        "default": ""
+      },
+      "nocodbMcpUrl": {
+        "type": "string",
+        "default": ""
+      }
+    }
+  },
+  "uiHints": {
+    "nocodbMcpToken": {
+      "label": "Nocodb Mcp Token",
+      "sensitive": true
+    },
+    "nocodbMcpUrl": {
+      "label": "Nocodb Mcp Url"
+    }
+  }
+}

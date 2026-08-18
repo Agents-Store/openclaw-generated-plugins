@@ -1,0 +1,20 @@
+{
+  "id": "chatwoot-dev",
+  "name": "Chatwoot Dev",
+  "description": "Chatwoot dev plugin for Agents Store. Full REST API coverage (Application, Platform, and Public/Client APIs) with bundled OpenAPI specs, official chatwoot CLI recipes, webhook & agent-bot automation, and troubleshooting for developers building on Chatwoot. Authenticates with the api_access_token header via CHATWOOT_API_KEY against CHATWOOT_BASE_URL.",
+  "version": "1.0.0",
+  "skills": [
+    "skills/api-reference",
+    "skills/cli-recipes",
+    "skills/examples",
+    "skills/setup",
+    "skills/troubleshoot",
+    "skills/webhooks-automation"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  },
+  "uiHints": {}
+}

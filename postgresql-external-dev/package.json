@@ -1,0 +1,29 @@
+{
+  "name": "@agents-store/postgresql-external-dev",
+  "version": "1.0.1",
+  "description": "PostgreSQL schema design for external database connections. Compatible SQL patterns for NocoDB and NocoBase — table creation, column types, relations, indexes, and anti-patterns.",
+  "license": "MIT",
+  "author": {
+    "name": "AGENTS.STORE"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "agents-store",
+    "postgresql",
+    "postgres",
+    "database",
+    "schema",
+    "sql",
+    "nocodb",
+    "nocobase",
+    "external-database",
+    "low-code",
+    "dev"
+  ],
+  "files": [
+    "skills/",
+    "openclaw.plugin.json",
+    "README.md"
+  ]
+}

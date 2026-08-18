@@ -1,0 +1,30 @@
+{
+  "name": "@agents-store/nextjs-dev",
+  "version": "1.4.1",
+  "description": "Next.js development plugin. Knowledge base for building modern Next.js 16 applications with App Router, Server/Client Components, data fetching, Cache Components, performance optimization, and the next-devtools-mcp toolchain.",
+  "license": "MIT",
+  "author": {
+    "name": "AGENTS.STORE"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "agents-store",
+    "nextjs",
+    "next.js",
+    "react",
+    "app-router",
+    "server-components",
+    "typescript",
+    "dev",
+    "testing",
+    "security",
+    "authentication",
+    "forms"
+  ],
+  "files": [
+    "skills/",
+    "openclaw.plugin.json",
+    "README.md"
+  ]
+}

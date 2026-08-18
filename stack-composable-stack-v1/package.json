@@ -1,0 +1,29 @@
+{
+  "name": "@agents-store/stack-composable-stack-v1",
+  "version": "1.2.0",
+  "description": "Composable Stack v1 dev plugin. Integrates PostgreSQL (direct MCP + PostgREST API), NocoDB, n8n, Trigger.dev, and NocoBase (prod + dev sandbox via nc-mcp) for building data-driven applications with low-code interfaces.",
+  "license": "MIT",
+  "author": {
+    "name": "Agents Store",
+    "url": "https://github.com/agents-store"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "agents-store",
+    "stack",
+    "composable-stack",
+    "dev",
+    "postgresql",
+    "postgrest",
+    "nocodb",
+    "n8n",
+    "trigger-dev",
+    "nocobase"
+  ],
+  "files": [
+    "skills/",
+    "openclaw.plugin.json",
+    "README.md"
+  ]
+}

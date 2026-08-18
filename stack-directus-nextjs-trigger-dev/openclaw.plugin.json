@@ -1,0 +1,55 @@
+{
+  "id": "stack-directus-nextjs-trigger-dev",
+  "name": "Stack Directus Nextjs Trigger Dev",
+  "description": "Directus + Next.js + Trigger.dev stack dev plugin. Adds self-hosted Trigger.dev as a workflow engine for AI agents, durable async logic, and scheduled jobs on top of the Directus + Next.js App Router stack.",
+  "version": "1.0.2",
+  "skills": [
+    "skills/authentication",
+    "skills/background-tasks",
+    "skills/deployment",
+    "skills/directus-to-nextjs",
+    "skills/directus-to-trigger",
+    "skills/examples",
+    "skills/full-feature",
+    "skills/init-project",
+    "skills/scheduled-tasks"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "directusAdminToken": {
+        "type": "string",
+        "default": ""
+      },
+      "nextPublicDirectusUrl": {
+        "type": "string",
+        "default": ""
+      },
+      "triggerApiUrl": {
+        "type": "string",
+        "default": ""
+      },
+      "triggerSecretKey": {
+        "type": "string",
+        "default": ""
+      }
+    }
+  },
+  "uiHints": {
+    "directusAdminToken": {
+      "label": "Directus Admin Token",
+      "sensitive": true
+    },
+    "nextPublicDirectusUrl": {
+      "label": "Next Public Directus Url"
+    },
+    "triggerApiUrl": {
+      "label": "Trigger Api Url"
+    },
+    "triggerSecretKey": {
+      "label": "Trigger Secret Key",
+      "sensitive": true
+    }
+  }
+}

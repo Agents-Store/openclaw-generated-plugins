@@ -1,0 +1,29 @@
+{
+  "name": "@agents-store/infisical-dev",
+  "version": "1.0.0",
+  "description": "Infisical CLI dev plugin for Agents Store. Complete command-line coverage for secrets management — install & auth, infisical run/secrets/export, dynamic secrets, secret scanning with pre-commit hooks, machine-identity CI/CD auth, self-hosted, and troubleshooting.",
+  "license": "MIT",
+  "author": {
+    "name": "AGENTS.STORE"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "agents-store",
+    "infisical",
+    "cli",
+    "secrets",
+    "secrets-management",
+    "secret-scanning",
+    "machine-identity",
+    "devsecops",
+    "ci-cd",
+    "dotenv",
+    "dev"
+  ],
+  "files": [
+    "skills/",
+    "openclaw.plugin.json",
+    "README.md"
+  ]
+}

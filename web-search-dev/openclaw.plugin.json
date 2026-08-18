@@ -1,0 +1,66 @@
+{
+  "id": "web-search-dev",
+  "name": "Web Search Dev",
+  "description": "Web search and scraping developer toolkit. MCP tool patterns, REST API reference (Firecrawl v2), SDK/CLI usage for Firecrawl, Exa, Perplexity, Jina, Pexels, Unsplash, and Context7. Practical skills for web scraping, documentation search, and media discovery in dev workflows.",
+  "version": "1.1.1",
+  "skills": [
+    "skills/api-reference",
+    "skills/cli-recipes",
+    "skills/doc-search",
+    "skills/examples",
+    "skills/mcp-patterns",
+    "skills/media-search",
+    "skills/sdk-patterns",
+    "skills/setup",
+    "skills/troubleshoot",
+    "skills/web-scraping"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "context7ApiKey": {
+        "type": "string",
+        "default": ""
+      },
+      "exaApiKey": {
+        "type": "string",
+        "default": ""
+      },
+      "firecrawlApiToken": {
+        "type": "string",
+        "default": ""
+      },
+      "jinaApiKey": {
+        "type": "string",
+        "default": ""
+      },
+      "perplexityApiKey": {
+        "type": "string",
+        "default": ""
+      }
+    }
+  },
+  "uiHints": {
+    "context7ApiKey": {
+      "label": "Context7 Api Key",
+      "sensitive": true
+    },
+    "exaApiKey": {
+      "label": "Exa Api Key",
+      "sensitive": true
+    },
+    "firecrawlApiToken": {
+      "label": "Firecrawl Api Token",
+      "sensitive": true
+    },
+    "jinaApiKey": {
+      "label": "Jina Api Key",
+      "sensitive": true
+    },
+    "perplexityApiKey": {
+      "label": "Perplexity Api Key",
+      "sensitive": true
+    }
+  }
+}

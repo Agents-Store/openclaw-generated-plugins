@@ -1,0 +1,39 @@
+{
+  "id": "vercel-dev",
+  "name": "Vercel Dev",
+  "description": "Vercel ecosystem plugin. Deployment, AI SDK, Edge Functions, storage, routing, performance optimization. Includes CLI deploy troubleshooting for non-Git projects, Hobby plan fixes, standalone output handling. Based on official vercel-plugin v0.25.0 by Vercel Labs.",
+  "version": "0.25.4",
+  "skills": [
+    "skills/ai-gateway",
+    "skills/ai-sdk",
+    "skills/auth",
+    "skills/bootstrap",
+    "skills/chat-sdk",
+    "skills/deployments-cicd",
+    "skills/env-vars",
+    "skills/knowledge-update",
+    "skills/marketplace",
+    "skills/next-cache-components",
+    "skills/next-forge",
+    "skills/next-upgrade",
+    "skills/nextjs",
+    "skills/react-best-practices",
+    "skills/routing-middleware",
+    "skills/runtime-cache",
+    "skills/shadcn",
+    "skills/turbopack",
+    "skills/vercel-agent",
+    "skills/vercel-cli",
+    "skills/vercel-functions",
+    "skills/vercel-sandbox",
+    "skills/vercel-storage",
+    "skills/verification",
+    "skills/workflow"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  },
+  "uiHints": {}
+}

@@ -1,0 +1,22 @@
+{
+  "id": "nextjs-provision",
+  "name": "Nextjs Provision",
+  "description": "Next.js provisioning plugin. Set up shadcn/ui and shadcn studio — component installation, theme configuration, MCP server setup, project scaffolding, and multi-registry component search across 260+ registries from the official directory.",
+  "version": "1.2.1",
+  "skills": [
+    "skills/component-registry",
+    "skills/component-search",
+    "skills/examples",
+    "skills/mcp-tools",
+    "skills/project-scaffolding",
+    "skills/setup",
+    "skills/theme-configuration",
+    "skills/troubleshoot"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  },
+  "uiHints": {}
+}

@@ -1,0 +1,18 @@
+{
+  "id": "stack-flask-sqlalchemy-dev",
+  "name": "Stack Flask Sqlalchemy Dev",
+  "description": "Flask + SQLAlchemy stack dev plugin for Agents Store. Integration patterns for app factory wiring, blueprint-model coordination, Flask-Login + SQLAlchemy auth, Jinja2 + query data, and full-feature recipes.",
+  "version": "1.0.0",
+  "skills": [
+    "skills/auth-integration",
+    "skills/flask-sqlalchemy-wiring",
+    "skills/full-feature",
+    "skills/init-project"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  },
+  "uiHints": {}
+}

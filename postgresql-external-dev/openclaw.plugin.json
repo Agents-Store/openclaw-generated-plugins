@@ -1,0 +1,20 @@
+{
+  "id": "postgresql-external-dev",
+  "name": "Postgresql External Dev",
+  "description": "PostgreSQL schema design for external database connections. Compatible SQL patterns for NocoDB and NocoBase — table creation, column types, relations, indexes, and anti-patterns.",
+  "version": "1.0.1",
+  "skills": [
+    "skills/column-types",
+    "skills/create-tables",
+    "skills/examples",
+    "skills/modify-schema",
+    "skills/relations",
+    "skills/troubleshoot"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  },
+  "uiHints": {}
+}

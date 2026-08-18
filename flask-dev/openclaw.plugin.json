@@ -1,0 +1,20 @@
+{
+  "id": "flask-dev",
+  "name": "Flask Dev",
+  "description": "Flask dev plugin for Agents Store. Application factory patterns, blueprint organization, Jinja2 templates, Flask CLI recipes, and troubleshooting for developers building with Flask.",
+  "version": "1.0.0",
+  "skills": [
+    "skills/api-reference",
+    "skills/app-patterns",
+    "skills/cli-recipes",
+    "skills/jinja2-patterns",
+    "skills/setup",
+    "skills/troubleshoot"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  },
+  "uiHints": {}
+}

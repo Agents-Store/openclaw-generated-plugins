@@ -1,0 +1,45 @@
+{
+  "id": "nocobase",
+  "name": "Nocobase",
+  "description": "NocoBase platform development plugin. Expert guidance on collections, fields, relations, workflows, UI blocks, plugin development, MCP-powered page management, data operations, and collection inspection for NocoBase applications.",
+  "version": "1.1.0",
+  "skills": [
+    "skills/collections-design",
+    "skills/data-operations",
+    "skills/examples",
+    "skills/fields-relations",
+    "skills/plugin-development",
+    "skills/ui-configuration",
+    "skills/workflows-automations"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "nocobaseEmail": {
+        "type": "string",
+        "default": ""
+      },
+      "nocobasePassword": {
+        "type": "string",
+        "default": ""
+      },
+      "nocobaseUrl": {
+        "type": "string",
+        "default": ""
+      }
+    }
+  },
+  "uiHints": {
+    "nocobaseEmail": {
+      "label": "Nocobase Email"
+    },
+    "nocobasePassword": {
+      "label": "Nocobase Password",
+      "sensitive": true
+    },
+    "nocobaseUrl": {
+      "label": "Nocobase Url"
+    }
+  }
+}

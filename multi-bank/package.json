@@ -1,0 +1,33 @@
+{
+  "name": "@agents-store/multi-bank",
+  "version": "1.0.0",
+  "description": "Multi-Bank Account Manager with broadcast architecture pattern. Aggregates financial data from Monobank and PrivatBank via MCP tools, broadcasts balance updates and budget alerts to subscribed components, categorizes transactions, and exports financial reports in CSV/PDF.",
+  "license": "MIT",
+  "author": {
+    "name": "AGENTS.STORE"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "agents-store",
+    "multi-bank",
+    "monobank",
+    "privatbank",
+    "banking",
+    "finance",
+    "broadcast",
+    "balances",
+    "transactions",
+    "payments",
+    "salary",
+    "budget",
+    "reports",
+    "ukrainian-banks",
+    "mcp"
+  ],
+  "files": [
+    "skills/",
+    "openclaw.plugin.json",
+    "README.md"
+  ]
+}

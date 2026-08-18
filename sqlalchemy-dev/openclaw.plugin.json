@@ -1,0 +1,20 @@
+{
+  "id": "sqlalchemy-dev",
+  "name": "Sqlalchemy Dev",
+  "description": "SQLAlchemy dev plugin for Agents Store. Model definition patterns, relationship mapping, query optimization, Alembic migrations, and troubleshooting for developers building with SQLAlchemy 2.0+.",
+  "version": "1.0.0",
+  "skills": [
+    "skills/api-reference",
+    "skills/cli-recipes",
+    "skills/model-patterns",
+    "skills/query-patterns",
+    "skills/setup",
+    "skills/troubleshoot"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  },
+  "uiHints": {}
+}

@@ -1,0 +1,30 @@
+{
+  "id": "firecrawl",
+  "name": "Firecrawl",
+  "description": "Firecrawl web scraping and search plugin. Scrape URLs, crawl sites, search the web, map site structures, extract structured data, batch scraping, autonomous research agents, and cloud browser sessions via MCP tools.",
+  "version": "1.0.0",
+  "skills": [
+    "skills/agent-research",
+    "skills/batch-operations",
+    "skills/browser-sessions",
+    "skills/crawling",
+    "skills/examples",
+    "skills/scraping",
+    "skills/search-extract"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "firecrawlMcpUrl": {
+        "type": "string",
+        "default": ""
+      }
+    }
+  },
+  "uiHints": {
+    "firecrawlMcpUrl": {
+      "label": "Firecrawl Mcp Url"
+    }
+  }
+}

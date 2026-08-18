@@ -1,0 +1,27 @@
+{
+  "name": "@agents-store/firecrawl",
+  "version": "1.0.0",
+  "description": "Firecrawl web scraping and search plugin. Scrape URLs, crawl sites, search the web, map site structures, extract structured data, batch scraping, autonomous research agents, and cloud browser sessions via MCP tools.",
+  "license": "MIT",
+  "author": {
+    "name": "AGENTS.STORE"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "agents-store",
+    "firecrawl",
+    "web-scraping",
+    "crawling",
+    "search",
+    "data-extraction",
+    "sitemap",
+    "markdown",
+    "content"
+  ],
+  "files": [
+    "skills/",
+    "openclaw.plugin.json",
+    "README.md"
+  ]
+}

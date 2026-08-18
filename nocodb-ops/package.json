@@ -1,0 +1,25 @@
+{
+  "name": "@agents-store/nocodb-ops",
+  "version": "1.0.6",
+  "description": "NocoDB ops plugin for Agents Store. Record management, views, reports, filtering, search, and data import/export for business users via MCP tools and CLI.",
+  "license": "MIT",
+  "author": {
+    "name": "AGENTS.STORE"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "agents-store",
+    "nocodb",
+    "ops",
+    "database",
+    "records",
+    "views",
+    "reports"
+  ],
+  "files": [
+    "skills/",
+    "openclaw.plugin.json",
+    "README.md"
+  ]
+}

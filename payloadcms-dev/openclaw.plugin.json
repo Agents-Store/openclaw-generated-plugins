@@ -1,0 +1,37 @@
+{
+  "id": "payloadcms-dev",
+  "name": "Payloadcms Dev",
+  "description": "PayloadCMS dev plugin for Agents Store. Covers collections, fields, globals, hooks, access control, authentication, queries, data management (trash/query presets/folders), localization, adapters, Lexical rich text, admin customization, jobs queue, plugin development, official plugins, Next.js integration, deployment, CLI, migrations, and end-to-end scenarios for TypeScript developers building with Payload v3.",
+  "version": "1.2.1",
+  "skills": [
+    "skills/access-control",
+    "skills/adapters",
+    "skills/admin-customization",
+    "skills/api-reference",
+    "skills/authentication",
+    "skills/cli-recipes",
+    "skills/cms-migration",
+    "skills/collections",
+    "skills/data-management",
+    "skills/deployment",
+    "skills/examples",
+    "skills/fields",
+    "skills/globals",
+    "skills/hooks",
+    "skills/jobs-queue",
+    "skills/lexical-editor",
+    "skills/localization",
+    "skills/nextjs-integration",
+    "skills/official-plugins",
+    "skills/plugin-development",
+    "skills/queries",
+    "skills/setup",
+    "skills/troubleshoot"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  },
+  "uiHints": {}
+}

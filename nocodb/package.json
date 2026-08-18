@@ -1,0 +1,30 @@
+{
+  "name": "@agents-store/nocodb",
+  "version": "1.0.0",
+  "description": "NocoDB database development plugin. Manage tables, records, columns, views, relations, formulas, rollups, lookups, filtering, sorting, search, aggregation, webhooks, and filter/sort management via MCP tools.",
+  "license": "MIT",
+  "author": {
+    "name": "AGENTS.STORE"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "agents-store",
+    "nocodb",
+    "database",
+    "tables",
+    "records",
+    "columns",
+    "views",
+    "relations",
+    "formulas",
+    "no-code",
+    "spreadsheet",
+    "airtable-alternative"
+  ],
+  "files": [
+    "skills/",
+    "openclaw.plugin.json",
+    "README.md"
+  ]
+}

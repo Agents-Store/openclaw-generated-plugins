@@ -1,0 +1,41 @@
+{
+  "id": "dataforseo-dev",
+  "name": "Dataforseo Dev",
+  "description": "DataForSEO data analysis plugin. Keyword research, competitor analysis, backlink auditing, SERP monitoring, on-page audits, content analysis, and AI optimization via 70+ MCP tools.",
+  "version": "1.0.0",
+  "skills": [
+    "skills/ai-optimization",
+    "skills/api-reference",
+    "skills/backlink-audit",
+    "skills/competitor-analysis",
+    "skills/examples",
+    "skills/keyword-research",
+    "skills/mcp-patterns",
+    "skills/setup",
+    "skills/site-audit",
+    "skills/troubleshoot"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "dataforseoPassword": {
+        "type": "string",
+        "default": ""
+      },
+      "dataforseoUsername": {
+        "type": "string",
+        "default": ""
+      }
+    }
+  },
+  "uiHints": {
+    "dataforseoPassword": {
+      "label": "Dataforseo Password",
+      "sensitive": true
+    },
+    "dataforseoUsername": {
+      "label": "Dataforseo Username"
+    }
+  }
+}

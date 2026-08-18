@@ -1,0 +1,30 @@
+{
+  "id": "grammy-dev",
+  "name": "Grammy Dev",
+  "description": "grammY (Telegram bot framework) dev plugin for Agents Store. Covers bot core, filter queries, middleware, commands, keyboards, sessions, conversations, files, payments, deployment, scaling, and the full @grammyjs/* plugin catalog for Node.js/Deno/TypeScript bot developers.",
+  "version": "1.0.0",
+  "skills": [
+    "skills/api-reference",
+    "skills/commands-and-keyboards",
+    "skills/conversations",
+    "skills/deployment-hosting",
+    "skills/error-handling",
+    "skills/examples",
+    "skills/files-and-media",
+    "skills/filter-queries",
+    "skills/middleware",
+    "skills/payments-business-games",
+    "skills/plugins-catalog",
+    "skills/scaling-runner",
+    "skills/sdk-patterns",
+    "skills/sessions",
+    "skills/setup",
+    "skills/troubleshoot"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  },
+  "uiHints": {}
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@agents-store/nextjs-provision",
+  "version": "1.2.1",
+  "description": "Next.js provisioning plugin. Set up shadcn/ui and shadcn studio — component installation, theme configuration, MCP server setup, project scaffolding, and multi-registry component search across 260+ registries from the official directory.",
+  "license": "MIT",
+  "author": {
+    "name": "AGENTS.STORE"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "agents-store",
+    "nextjs",
+    "shadcn",
+    "shadcn-ui",
+    "shadcn-studio",
+    "ui-components",
+    "tailwind",
+    "provision",
+    "community-registries",
+    "component-search",
+    "base-ui",
+    "registry-directory"
+  ],
+  "files": [
+    "skills/",
+    "openclaw.plugin.json",
+    "README.md"
+  ]
+}

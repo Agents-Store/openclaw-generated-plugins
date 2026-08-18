@@ -1,0 +1,45 @@
+{
+  "id": "multi-bank",
+  "name": "Multi Bank",
+  "description": "Multi-Bank Account Manager with broadcast architecture pattern. Aggregates financial data from Monobank and PrivatBank via MCP tools, broadcasts balance updates and budget alerts to subscribed components, categorizes transactions, and exports financial reports in CSV/PDF.",
+  "version": "1.0.0",
+  "skills": [
+    "skills/bank-api-integration",
+    "skills/bank-balances",
+    "skills/bank-reports",
+    "skills/bank-statements",
+    "skills/bank-transactions",
+    "skills/broadcast-pattern",
+    "skills/budget-alerts",
+    "skills/currency-rates",
+    "skills/e-documents",
+    "skills/encrypted-storage",
+    "skills/examples",
+    "skills/payments",
+    "skills/report-export",
+    "skills/salary-management",
+    "skills/transaction-categorization"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "monobankMcpUrl": {
+        "type": "string",
+        "default": ""
+      },
+      "privatbankMcpUrl": {
+        "type": "string",
+        "default": ""
+      }
+    }
+  },
+  "uiHints": {
+    "monobankMcpUrl": {
+      "label": "Monobank Mcp Url"
+    },
+    "privatbankMcpUrl": {
+      "label": "Privatbank Mcp Url"
+    }
+  }
+}

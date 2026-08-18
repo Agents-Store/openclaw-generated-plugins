@@ -1,0 +1,24 @@
+{
+  "id": "seo-dev",
+  "name": "Seo Dev",
+  "description": "SEO development plugin for Agents Store. Technical SEO, structured data (JSON-LD), metadata API, Core Web Vitals, sitemaps, and content optimization patterns for Next.js App Router.",
+  "version": "1.0.0",
+  "skills": [
+    "skills/audit",
+    "skills/content-seo",
+    "skills/examples",
+    "skills/meta-tags",
+    "skills/performance",
+    "skills/setup",
+    "skills/sitemap-robots",
+    "skills/structured-data",
+    "skills/technical-seo",
+    "skills/troubleshoot"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  },
+  "uiHints": {}
+}

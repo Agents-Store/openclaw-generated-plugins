@@ -1,0 +1,26 @@
+{
+  "name": "@agents-store/sqlalchemy-dev",
+  "version": "1.0.0",
+  "description": "SQLAlchemy dev plugin for Agents Store. Model definition patterns, relationship mapping, query optimization, Alembic migrations, and troubleshooting for developers building with SQLAlchemy 2.0+.",
+  "license": "MIT",
+  "author": {
+    "name": "Agents Store",
+    "url": "https://github.com/agents-store"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "agents-store",
+    "sqlalchemy",
+    "dev",
+    "python",
+    "orm",
+    "alembic",
+    "database"
+  ],
+  "files": [
+    "skills/",
+    "openclaw.plugin.json",
+    "README.md"
+  ]
+}

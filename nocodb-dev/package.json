@@ -1,0 +1,34 @@
+{
+  "name": "@agents-store/nocodb-dev",
+  "version": "1.1.0",
+  "description": "NocoDB schema development plugin. Full Meta API v3 coverage — tables, fields (30+ types), views, filters, sorts, hooks (HookV3), comments, scripts, dashboards & widgets, workflows, plus workspaces / members / teams / tokens. Bundles both Data API and Meta API OpenAPI specs.",
+  "license": "MIT",
+  "author": {
+    "name": "AGENTS.STORE"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "agents-store",
+    "nocodb",
+    "dev",
+    "database",
+    "schema",
+    "tables",
+    "fields",
+    "views",
+    "relations",
+    "formulas",
+    "webhooks",
+    "dashboards",
+    "workflows",
+    "scripts",
+    "comments",
+    "meta-api"
+  ],
+  "files": [
+    "skills/",
+    "openclaw.plugin.json",
+    "README.md"
+  ]
+}

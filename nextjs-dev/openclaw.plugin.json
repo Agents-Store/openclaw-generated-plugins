@@ -1,0 +1,32 @@
+{
+  "id": "nextjs-dev",
+  "name": "Nextjs Dev",
+  "description": "Next.js development plugin. Knowledge base for building modern Next.js 16 applications with App Router, Server/Client Components, data fetching, Cache Components, performance optimization, and the next-devtools-mcp toolchain.",
+  "version": "1.4.1",
+  "skills": [
+    "skills/api-design",
+    "skills/api-reference",
+    "skills/app-router-patterns",
+    "skills/auth-patterns",
+    "skills/cli-recipes",
+    "skills/data-fetching",
+    "skills/docker-patterns",
+    "skills/error-handling",
+    "skills/examples",
+    "skills/form-handling",
+    "skills/mcp-tools",
+    "skills/performance-optimization",
+    "skills/project-structure",
+    "skills/security-patterns",
+    "skills/server-client-components",
+    "skills/setup",
+    "skills/testing-patterns",
+    "skills/troubleshoot"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  },
+  "uiHints": {}
+}
