@@ -1,0 +1,24 @@
+{
+  "id": "project-template-dev",
+  "name": "Project Template Dev",
+  "description": "Manage project template hierarchy with unified improvement workflow. Route fixes to plugins or parent templates automatically, quick-capture ideas for later, and run unified end-of-session reviews covering both plugins and templates.",
+  "version": "2.0.0",
+  "skills": [
+    "skills/audit-stack",
+    "skills/capture",
+    "skills/create",
+    "skills/examples",
+    "skills/feedback",
+    "skills/improve",
+    "skills/sync",
+    "skills/template-reference",
+    "skills/validate",
+    "skills/wrap-up"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  },
+  "uiHints": {}
+}

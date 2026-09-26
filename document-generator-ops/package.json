@@ -1,0 +1,33 @@
+{
+  "name": "@agents-store/document-generator-ops",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Professional document generator. Creates proposals, invoices, estimates/quotations, reports, presentations, contracts, NDAs, and certificates of completion in PDF, DOCX, and PPTX formats. Supports multi-language documents with embedded fonts (Cyrillic, Latin). First-use onboarding for style preferences, company profiles, and logo management. Converts between MD, DOCX, PDF, HTML, and PPTX.",
+  "license": "MIT",
+  "author": {
+    "name": "AGENTS.STORE"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "agents-store",
+    "document",
+    "pdf",
+    "docx",
+    "pptx",
+    "invoice",
+    "proposal",
+    "report",
+    "presentation",
+    "contract",
+    "generator",
+    "converter",
+    "pandoc",
+    "business-documents"
+  ],
+  "files": [
+    "skills/",
+    "openclaw.plugin.json",
+    "README.md"
+  ]
+}

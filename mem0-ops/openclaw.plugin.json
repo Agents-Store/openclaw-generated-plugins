@@ -1,0 +1,28 @@
+{
+  "id": "mem0-ops",
+  "name": "Mem0 Ops",
+  "description": "Mem0 memory management plugin. Store, search, update, and organize memories with semantic search, batch operations, file attachments, and change history tracking via MCP tools.",
+  "version": "2.0.0",
+  "skills": [
+    "skills/examples",
+    "skills/file-management",
+    "skills/history-tracking",
+    "skills/memory-crud",
+    "skills/search-retrieval"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "mem0McpUrl": {
+        "type": "string",
+        "default": ""
+      }
+    }
+  },
+  "uiHints": {
+    "mem0McpUrl": {
+      "label": "Mem0 Mcp Url"
+    }
+  }
+}

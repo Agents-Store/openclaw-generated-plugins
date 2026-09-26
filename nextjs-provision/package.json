@@ -1,6 +1,7 @@
 {
   "name": "@agents-store/nextjs-provision",
   "version": "1.2.1",
+  "private": true,
   "description": "Next.js provisioning plugin. Set up shadcn/ui and shadcn studio — component installation, theme configuration, MCP server setup, project scaffolding, and multi-registry component search across 260+ registries from the official directory.",
   "license": "MIT",
   "author": {

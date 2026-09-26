@@ -1,0 +1,32 @@
+{
+  "name": "@agents-store/deep-research-ops",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Deep Research plugin. Comprehensive web research using 4 providers (Exa, Firecrawl, Jina, Perplexity) with capability-based CONNECTORS pattern and automatic FALLBACK chains. Search, scrape, crawl, extract — each action tries multiple providers until one succeeds.",
+  "license": "MIT",
+  "author": {
+    "name": "AGENTS.STORE"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "agents-store",
+    "deep-research",
+    "web-research",
+    "search",
+    "scraping",
+    "exa",
+    "firecrawl",
+    "jina",
+    "perplexity",
+    "content-extraction",
+    "report-generation",
+    "competitive-analysis",
+    "market-research"
+  ],
+  "files": [
+    "skills/",
+    "openclaw.plugin.json",
+    "README.md"
+  ]
+}
