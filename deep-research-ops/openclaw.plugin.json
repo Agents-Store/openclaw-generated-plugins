@@ -2,7 +2,7 @@
   "id": "deep-research-ops",
   "name": "Deep Research Ops",
   "description": "Deep Research plugin. Comprehensive web research using 4 providers (Exa, Firecrawl, Jina, Perplexity) with capability-based CONNECTORS pattern and automatic FALLBACK chains. Search, scrape, crawl, extract — each action tries multiple providers until one succeeds.",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "skills": [
     "skills/content-extraction",
     "skills/deep-research",
@@ -13,16 +13,7 @@
   "configSchema": {
     "type": "object",
     "additionalProperties": false,
-    "properties": {
-      "mcpwareMcpUrl": {
-        "type": "string",
-        "default": ""
-      }
-    }
+    "properties": {}
   },
-  "uiHints": {
-    "mcpwareMcpUrl": {
-      "label": "Mcpware Mcp Url"
-    }
-  }
+  "uiHints": {}
 }

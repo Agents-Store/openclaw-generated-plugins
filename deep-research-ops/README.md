@@ -8,25 +8,6 @@ Deep Research plugin. Comprehensive web research using 4 providers (Exa, Firecra
 openclaw plugins install @agents-store/deep-research-ops
 ```
 
-## Configuration
-
-Set values in your OpenClaw config:
-
-```json
-{
-  "plugins": {
-    "entries": {
-      "deep-research-ops": {
-        "enabled": true,
-        "config": {
-          "mcpwareMcpUrl": "..."
-        }
-      }
-    }
-  }
-}
-```
-
 ## Skills
 
 - `content-extraction` — Content reading and extraction guidelines — reading URLs, scraping pages, crawling sites, extracting PDFs, and taking screenshots. Use when reading web content, extracting structured data from pages, or processing documents.
