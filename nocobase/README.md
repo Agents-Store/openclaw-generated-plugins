@@ -1,32 +1,11 @@
 # @agents-store/nocobase
 
-DEPRECATED — superseded by nocobase-dev, which bundles the official nocobase/skills library and works through the nb CLI and REST API. The MCP server this plugin wires has no counterpart in nocobase-dev yet. NocoBase platform development plugin. Expert guidance on collections, fields, relations, workflows, UI blocks, plugin development, MCP-powered page management, data operations, and collection inspection for NocoBase applications.
+DEPRECATED — superseded by nocobase-dev, which bundles the official nocobase/skills library and works through the nb CLI and REST API. Its MCP server package (@nocobase/mcp-server) was withdrawn from npm and is no longer wired; the MCP commands and agents work only if you register your own server named `nocobase`. NocoBase platform development plugin. Expert guidance on collections, fields, relations, workflows, UI blocks, plugin development, MCP-powered page management, data operations, and collection inspection for NocoBase applications.
 
 ## Installation
 
 ```bash
 openclaw plugins install @agents-store/nocobase
-```
-
-## Configuration
-
-Set values in your OpenClaw config:
-
-```json
-{
-  "plugins": {
-    "entries": {
-      "nocobase": {
-        "enabled": true,
-        "config": {
-          "nocobaseEmail": "...",
-          "nocobasePassword": "...",
-          "nocobaseUrl": "..."
-        }
-      }
-    }
-  }
-}
 ```
 
 ## Skills
