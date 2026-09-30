@@ -2,7 +2,7 @@
   "id": "stack-composable-stack-v1",
   "name": "Stack Composable Stack V1",
   "description": "Composable Stack v1 dev plugin. Integrates PostgreSQL (direct MCP + PostgREST API), NocoDB, n8n, Trigger.dev, and NocoBase (prod + dev sandbox via nc-mcp) for building data-driven applications with low-code interfaces.",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "skills": [
     "skills/background-job",
     "skills/full-feature",
@@ -56,11 +56,11 @@
         "type": "string",
         "default": ""
       },
-      "triggerApiUrl": {
+      "triggerAccessToken": {
         "type": "string",
         "default": ""
       },
-      "triggerSecretKey": {
+      "triggerApiUrl": {
         "type": "string",
         "default": ""
       }
@@ -102,12 +102,12 @@
     "postgresqlMcpUrl": {
       "label": "Postgresql Mcp Url"
     },
+    "triggerAccessToken": {
+      "label": "Trigger Access Token",
+      "sensitive": true
+    },
     "triggerApiUrl": {
       "label": "Trigger Api Url"
-    },
-    "triggerSecretKey": {
-      "label": "Trigger Secret Key",
-      "sensitive": true
     }
   }
 }

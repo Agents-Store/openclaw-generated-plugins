@@ -29,8 +29,8 @@ Set values in your OpenClaw config:
           "nocodbToken": "...",
           "postgresqlMcpToken": "...",
           "postgresqlMcpUrl": "...",
-          "triggerApiUrl": "...",
-          "triggerSecretKey": "..."
+          "triggerAccessToken": "...",
+          "triggerApiUrl": "..."
         }
       }
     }

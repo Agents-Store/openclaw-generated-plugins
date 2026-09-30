@@ -21,8 +21,8 @@ Set values in your OpenClaw config:
         "config": {
           "directusAdminToken": "...",
           "nextPublicDirectusUrl": "...",
-          "triggerApiUrl": "...",
-          "triggerSecretKey": "..."
+          "triggerAccessToken": "...",
+          "triggerApiUrl": "..."
         }
       }
     }
