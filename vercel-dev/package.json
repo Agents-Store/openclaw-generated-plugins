@@ -1,8 +1,8 @@
 {
   "name": "@agents-store/vercel-dev",
-  "version": "0.51.0",
+  "version": "0.53.0",
   "private": true,
-  "description": "Vercel ecosystem plugin. Deployment, AI SDK, Edge Functions, storage, routing, performance optimization. Includes CLI deploy troubleshooting for non-Git projects, Hobby plan fixes, standalone output handling. Based on official vercel-plugin v0.51.0 by Vercel Labs; telemetry is opt-in (VERCEL_PLUGIN_TELEMETRY=on).",
+  "description": "Vercel ecosystem plugin. Deployment, AI SDK, Edge Functions, storage, routing, performance optimization. Includes CLI deploy troubleshooting for non-Git projects, Hobby plan fixes, standalone output handling. Based on official vercel-plugin v0.53.0 by Vercel Labs; telemetry is opt-in (VERCEL_PLUGIN_TELEMETRY=on).",
   "license": "MIT",
   "author": {
     "name": "AGENTS.STORE"

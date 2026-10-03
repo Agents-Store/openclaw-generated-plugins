@@ -1,0 +1,61 @@
+{
+  "id": "stack-directus-nextjs-trigger",
+  "name": "Stack Directus Nextjs Trigger",
+  "description": "Directus + Next.js + Trigger.dev architecture plugin. How Directus (content, files, access), a Next.js App Router frontend and self-hosted Trigger.dev (durable and scheduled work) fit together: who holds which token, how the cache is invalidated, how a Directus change reaches a task and the result reaches the page, who owns the session, and a production checklist. Tool knowledge comes from its dependencies.",
+  "version": "3.0.0",
+  "skills": [
+    "skills/authentication",
+    "skills/background-tasks",
+    "skills/deployment",
+    "skills/directus-to-nextjs",
+    "skills/directus-to-trigger",
+    "skills/examples",
+    "skills/full-feature",
+    "skills/init-project"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "directusAdminToken": {
+        "type": "string",
+        "default": ""
+      },
+      "nextPublicDirectusUrl": {
+        "type": "string",
+        "default": ""
+      },
+      "triggerAccessToken": {
+        "type": "string",
+        "default": ""
+      },
+      "triggerApiUrl": {
+        "type": "string",
+        "default": ""
+      },
+      "triggerProjectRef": {
+        "type": "string",
+        "default": ""
+      }
+    }
+  },
+  "uiHints": {
+    "directusAdminToken": {
+      "label": "Directus Admin Token",
+      "sensitive": true
+    },
+    "nextPublicDirectusUrl": {
+      "label": "Next Public Directus Url"
+    },
+    "triggerAccessToken": {
+      "label": "Trigger Access Token",
+      "sensitive": true
+    },
+    "triggerApiUrl": {
+      "label": "Trigger Api Url"
+    },
+    "triggerProjectRef": {
+      "label": "Trigger Project Ref"
+    }
+  }
+}

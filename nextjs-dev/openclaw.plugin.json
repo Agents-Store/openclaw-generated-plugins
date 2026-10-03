@@ -2,7 +2,7 @@
   "id": "nextjs-dev",
   "name": "Nextjs Dev",
   "description": "Next.js development plugin. Knowledge base for building modern Next.js 16 applications with App Router, Server/Client Components, data fetching, Cache Components, performance optimization, and the next-devtools-mcp toolchain.",
-  "version": "1.4.1",
+  "version": "1.6.0",
   "skills": [
     "skills/api-design",
     "skills/api-reference",

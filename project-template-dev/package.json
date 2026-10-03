@@ -1,6 +1,6 @@
 {
   "name": "@agents-store/project-template-dev",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "private": true,
   "description": "Manage project template hierarchy with unified improvement workflow. Route fixes to plugins or parent templates automatically, quick-capture ideas for later, and run unified end-of-session reviews covering both plugins and templates.",
   "license": "MIT",
@@ -16,7 +16,6 @@
     "feedback",
     "scaffold",
     "stack",
-    "template-creator",
     "CLAUDE.md",
     "skills",
     "agents",

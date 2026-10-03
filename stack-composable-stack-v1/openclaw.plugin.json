@@ -1,16 +1,16 @@
 {
   "id": "stack-composable-stack-v1",
   "name": "Stack Composable Stack V1",
-  "description": "Composable Stack v1 dev plugin. Integrates PostgreSQL (direct MCP + PostgREST API), NocoDB, n8n, Trigger.dev, and NocoBase (prod + dev sandbox via nc-mcp) for building data-driven applications with low-code interfaces.",
-  "version": "2.0.0",
+  "description": "Composable Stack v1 architecture plugin. How PostgreSQL (direct MCP + PostgREST API), NocoDB, n8n, Trigger.dev, and NocoBase (prod + dev sandbox) fit together for data-driven applications with low-code interfaces: layer roles, data-access selection, integration patterns between services, and project bootstrap. Tool knowledge comes from its dependencies.",
+  "version": "3.0.0",
   "skills": [
     "skills/background-job",
+    "skills/data-access-selection",
     "skills/full-feature",
     "skills/init-project",
     "skills/nocobase-to-n8n",
     "skills/nocodb-to-n8n",
-    "skills/nocodb-to-trigger",
-    "skills/postgresql-api"
+    "skills/nocodb-to-trigger"
   ],
   "configSchema": {
     "type": "object",
@@ -40,11 +40,11 @@
         "type": "string",
         "default": ""
       },
-      "nocodbMcpUrl": {
+      "nocodbMcpToken": {
         "type": "string",
         "default": ""
       },
-      "nocodbToken": {
+      "nocodbMcpUrl": {
         "type": "string",
         "default": ""
       },
@@ -88,12 +88,12 @@
     "nocobaseDevUrl": {
       "label": "Nocobase Dev Url"
     },
+    "nocodbMcpToken": {
+      "label": "Nocodb Mcp Token",
+      "sensitive": true
+    },
     "nocodbMcpUrl": {
       "label": "Nocodb Mcp Url"
-    },
-    "nocodbToken": {
-      "label": "Nocodb Token",
-      "sensitive": true
     },
     "postgresqlMcpToken": {
       "label": "Postgresql Mcp Token",

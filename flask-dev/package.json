@@ -1,8 +1,8 @@
 {
   "name": "@agents-store/flask-dev",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "private": true,
-  "description": "Flask dev plugin for Agents Store. Application factory patterns, blueprint organization, Jinja2 templates, Flask CLI recipes, and troubleshooting for developers building with Flask.",
+  "description": "Flask dev plugin for Agents Store. Project scaffold, application factory patterns, blueprint organization, Flask-Login authentication, CRUD views, Jinja2 templates, Flask CLI recipes, and troubleshooting for developers building with Flask.",
   "license": "MIT",
   "author": {
     "name": "Agents Store",
