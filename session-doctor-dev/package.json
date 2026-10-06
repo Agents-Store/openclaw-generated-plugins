@@ -1,0 +1,28 @@
+{
+  "name": "@agents-store/session-doctor-dev",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Read-only audit of a Claude Code session: where it runs, what context it loaded, which model and effort it used, the skills it invoked, every HTTP request with its status code, and the status of each API token seen in the session — with concrete fixes.",
+  "license": "MIT",
+  "author": {
+    "name": "AGENTS.STORE"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "agents-store",
+    "session",
+    "audit",
+    "diagnostics",
+    "debug",
+    "http",
+    "tokens",
+    "skills",
+    "observability"
+  ],
+  "files": [
+    "skills/",
+    "openclaw.plugin.json",
+    "README.md"
+  ]
+}
