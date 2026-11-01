@@ -2,7 +2,7 @@
   "id": "flask-dev",
   "name": "Flask Dev",
   "description": "Flask dev plugin for Agents Store. Project scaffold, application factory patterns, blueprint organization, Flask-Login authentication, CRUD views, Jinja2 templates, Flask CLI recipes, and troubleshooting for developers building with Flask.",
-  "version": "1.2.0",
+  "version": "1.2.4",
   "skills": [
     "skills/api-reference",
     "skills/app-patterns",

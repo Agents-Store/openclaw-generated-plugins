@@ -2,7 +2,7 @@
   "id": "codemap-dev",
   "name": "Codemap Dev",
   "description": "Code understanding plugin for developers. Helps onboard to unfamiliar projects through beginner-friendly code review, step-by-step explanations, visual diagrams (architecture, ERD, flows) via drawio-mcp, and frontend testing via Playwright MCP.",
-  "version": "1.4.0",
+  "version": "1.4.5",
   "skills": [
     "skills/codemap-diagram",
     "skills/codemap-examples",
