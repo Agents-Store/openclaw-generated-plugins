@@ -1,0 +1,80 @@
+{
+  "id": "stack-ads",
+  "name": "Stack Ads",
+  "description": "Paid advertising stack for any project. Researches the product and its market, derives targeting, writes ad copy, generates images, video and voice-over, launches paused campaigns on Google Ads, Meta and TikTok from a reviewed dry-run plan with budget ceilings and a rollback ledger, and reports results. Walks the user through obtaining every key. Integrates Google Ads, Search Console, Meta, TikTok, Firecrawl, Apify, DataForSEO, OpenAI, Gemini and fal.ai via MCP and one dependency-free toolkit.",
+  "version": "1.0.0",
+  "skills": [
+    "skills/ad-copy",
+    "skills/ad-creatives",
+    "skills/examples",
+    "skills/full-campaign",
+    "skills/init-project",
+    "skills/launch-campaign",
+    "skills/market-research",
+    "skills/media-plan",
+    "skills/performance-report",
+    "skills/product-brief",
+    "skills/troubleshoot"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "apifyToken": {
+        "type": "string",
+        "default": ""
+      },
+      "dataforseoPassword": {
+        "type": "string",
+        "default": ""
+      },
+      "dataforseoUsername": {
+        "type": "string",
+        "default": ""
+      },
+      "firecrawlApiKey": {
+        "type": "string",
+        "default": ""
+      },
+      "googleApplicationCredentials": {
+        "type": "string",
+        "default": ""
+      },
+      "googleCloudProject": {
+        "type": "string",
+        "default": ""
+      },
+      "metaAccessToken": {
+        "type": "string",
+        "default": ""
+      }
+    }
+  },
+  "uiHints": {
+    "apifyToken": {
+      "label": "Apify Token",
+      "sensitive": true
+    },
+    "dataforseoPassword": {
+      "label": "Dataforseo Password",
+      "sensitive": true
+    },
+    "dataforseoUsername": {
+      "label": "Dataforseo Username"
+    },
+    "firecrawlApiKey": {
+      "label": "Firecrawl Api Key",
+      "sensitive": true
+    },
+    "googleApplicationCredentials": {
+      "label": "Google Application Credentials"
+    },
+    "googleCloudProject": {
+      "label": "Google Cloud Project"
+    },
+    "metaAccessToken": {
+      "label": "Meta Access Token",
+      "sensitive": true
+    }
+  }
+}
